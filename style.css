@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+
+.cartao{
+    width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+    background: url(./Imagens_Desafio/backgorund.png); /* "../" se q pasta estivesse a um nivel acima */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial;
+    font-size: 15px;
+    padding-top: 1px;
+    padding-left: 20px;
+    margin: auto; /* centralizar na tela */
+    margin-top: 350px; /* alinha verticalmente */ /* obs: x% altera em relação ao tamanho da janela (% da janela)*/
+}
+
+a{
+    text-decoration: none; /* tirar o efeito do link quando ele é clicado */
+    color: black;
+    font-size: 18px;
+}
+
+#instagram{
+    list-style-image: url(./Imagens_Desafio/Insta.png)
+}
+
+#twitter{
+    list-style-image: url(./Imagens_Desafio/Twitter.png)
+}
+
+#youtube{
+    list-style-image: url(./Imagens_Desafio/Youtube.png)
+}
+
+
